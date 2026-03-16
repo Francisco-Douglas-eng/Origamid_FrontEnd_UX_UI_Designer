@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .container {
+            border: 2px solid #000;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .inline {
+            display: inline;
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .block {
+            display: block;
+            background-color: #d0f0d0;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            background-color: #d0d0f0;
+            padding: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: #f0d0d0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Displays</h1>
+    <p>O CSS <strong>display</strong> define como os elementos são exibidos na página. Aqui estão alguns exemplos:</p>
+
+    <div class="container">
+        <h2>Display Inline</h2>
+        <span class="inline">Item 1</span>
+        <span class="inline">Item 2</span>
+        <span class="inline">Item 3</span>
+    </div>
+
+    <div class="container">
+        <h2>Display Block</h2>
+        <div class="block">Item 1</div>
+        <div class="block">Item 2</div>
+        <div class="block">Item 3</div>
+    </div>
+
+    <div class="container">
+        <h2>Display Flex</h2>
+        <div class="flex">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Display Grid</h2>
+        <div class="grid">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+        </div>
+    </div>
+</body>
+</html>

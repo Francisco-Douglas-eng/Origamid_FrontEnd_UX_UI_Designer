@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            background: #5c5c5c;
+            color: #fff;
+            padding: 20px;
+            width: 200px;
+            position: relative;
+        }
+        p {
+            background: #e7e7e7;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .static {
+            position: static;
+            background: lightblue;
+            padding: 10px;
+        }
+        .relative {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            background: lightgreen;
+            padding: 10px;
+        }
+        .absolute {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background: lightcoral;
+            padding: 10px;
+        }
+        .fixed {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background: lightgoldenrodyellow;
+            padding: 10px;
+        }
+        .sticky {
+            position: sticky;
+            top: 0;
+            background: lightpink;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro</h1>
+    <h1>Segundo</h1>
+    <h1>Terceiro</h1>
+
+    <p>Lorem ipsum dolor sit.</p>
+
+    <div class="static">Exemplo de posição estática (default).</div>
+
+    <div class="relative">Exemplo de posição relativa (deslocado 10px para baixo e 20px para a direita).</div>
+
+    <div class="absolute">Exemplo de posição absoluta (posicionado em relação ao elemento pai mais próximo com posição relativa).</div>
+
+    <div class="fixed">Exemplo de posição fixa (sempre visível no canto superior direito).</div>
+
+    <div class="sticky">Exemplo de posição sticky (fixa no topo ao rolar a página).</div>
+</body>
+</html>
